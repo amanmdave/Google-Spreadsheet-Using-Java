@@ -1,0 +1,14 @@
+#Token folder
+/tokens
+
+#credentials and client secrets
+/src/main/resources/credentials.json
+
+
+
+#gradle folder
+/gradle
+.gradle
+
+#build folder
+/build
