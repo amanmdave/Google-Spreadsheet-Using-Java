@@ -2,6 +2,8 @@
 
 This is a boilerplate project that can be used to read and write from a Google Spreadsheet! 
 
+<hr/>
+
 ### Prerequisites
 
 The foremost task, go to the following link and give it a read.
@@ -9,6 +11,8 @@ https://developers.google.com/sheets/api/quickstart/java
 
 - Make sure you complete [Step 1](https://developers.google.com/sheets/api/quickstart/java#step_1_turn_on_the).
 - Download the `credentials.json` and keep it handy
+
+<hr/>
 
 ### Installing
 
@@ -19,6 +23,8 @@ https://developers.google.com/sheets/api/quickstart/java
 - A browser window will open, accept and allow google for permissions after reading them
 - Output should be displayed
 
+<hr/>
+
 ### Reading 
 
 - Go to `ReadFromSheet.java`
@@ -27,6 +33,7 @@ https://developers.google.com/sheets/api/quickstart/java
 - Change `mainClassName = 'SheetsQuickstart' ` to `mainClassName = 'ReadFromSheet'`
 - `gradle run`
 
+<hr/>
 
 ### Writing
 
@@ -57,11 +64,6 @@ After changing SCOPE or SpreadSheetId of your project, delete your `tokens` fold
 |-README.md
 ```
 
-
-
-    
-    
-
 ## Ending Notes
 - The repository follows ` Conventional Commits ` and `Gitmoji` styling
 - The `.idea` folder contains files that will change project settings for better understanding of comments
@@ -70,6 +72,7 @@ After changing SCOPE or SpreadSheetId of your project, delete your `tokens` fold
     - `//INFO:` Add external Information
     - `//Bug:` To suggests for bugs in code
     - `//URL:` For adding URLs
-    - ![Comment Styling](/src/main/resources/comment_styling.png)
+    
+![Comment Styling](/src/main/assets/comment_styling.png)
 
     
